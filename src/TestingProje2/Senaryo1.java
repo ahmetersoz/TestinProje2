@@ -36,6 +36,7 @@ public class Senaryo1 extends BaseDriver {
         WebElement emailTB = driver.findElement(By.cssSelector("input[id='Email']"));
         aksiyon = aksiyonlar.moveToElement(emailTB).sendKeys("Demir").build();
         aksiyon.perform();
+        //ss
 
 
 
